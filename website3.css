@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    transition: background 1s;
+}
+
+i {
+    color: tomato;
+}
+
+.nav {
+    border: 2px solid white;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.nav li {
+    padding-right: 5px;
+    padding-top: 10px;
+    float: right;
+}
+
+.nav li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.kibrispdr.org/data/1/8-bit-wallpaper-gif-29.gif');
+    background-size: cover;
+
+
+}
+
+/*WELCOME START AREA*/
+
+
+.welcome {
+    margin-top: 15px;
+    padding: 9px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin:15px auto;
+    width: 50%;
+    height: 65px;
+
+    margin-bottom: 35px;
+    background-color: black;
+    color: whitesmoke;
+    transition: background 1s;
+    transition: 500ms;
+
+}
+
+.welcome h1 {
+    padding: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    transition: font-size 500ms;
+
+
+}
+
+.welcome h1:hover {
+    font-size: 20px;
+
+}
+
+.welcome:hover {
+    padding: 3px;
+
+    background: white;
+    color: black;
+    /*WELCOME FINISH AREA*/
+
+
+}
+
+/* ABOUT BOX START AREA */
+.section {
+    align-items: center;
+}
+
+.section div {
+    display: inline-block;
+}
+
+.section div p {
+    padding-left: 25px;
+    text-align: center;
+    max-width: 300px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+
+.abouts {
+
+    width: 330px;
+    height: 450px;
+    background-color: black;
+    margin-left: 45px;
+    margin-right: 20px;
+
+}
+
+.abouts>div p {
+    padding-left: 25px;
+    text-align: center;
+    max-width: 300px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+.a-one {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+
+}
+
+
+.a-two {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+
+}
+
+.a-three {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+
+}
+
+.a-one:hover {
+
+    width: 390px;
+
+}
+
+.a-two:hover {
+
+    width: 420px;
+
+}
+
+.a-three:hover {
+
+    width: 450px;
+
+}
+
+
+.about-2 {
+    width: 350px;
+    height: 450px;
+    margin-left: 100.3px;
+}
+
+
+.b-one {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+
+}
+
+.b-two {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+}
+
+
+.b-three {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+}
+
+
+.b-one:hover {
+
+    width: 390px;
+
+}
+
+.b-two:hover {
+
+    width: 420px;
+
+}
+
+.b-three:hover {
+
+    width: 450px;
+
+}
+
+
+.about-3 {
+    width: 330px;
+    height: 450px;
+    margin-left: 100px;
+}
+
+.c-one {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+
+}
+
+.c-two {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+}
+
+
+.c-three {
+    border: 3px solid black;
+    padding: 8px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    transition: width 1s;
+}
+
+.c-one:hover {
+
+    width: 390px;
+
+}
+
+.c-two:hover {
+
+    width: 420px;
+
+}
+
+.c-three:hover {
+
+    width: 450px;
+
+}
+
+/* ABOUT BOX FINISH AREA*/
+
+
+/*VIDEO CONTAINER START AREA*/
+
+.video_container {
+    float: right;
+    margin: 55px auto;
+    width: 100%;
+    height: 315px;
+
+
+}
+
+.video {
+    float: right;
+    padding-left: 1;
+    margin-right: 25px;
+    width: 560px;
+    height: 315px;
+
+}
+
+/*VIDEO CONTAINER FINISH AREA*/
+
+
+
+
+/* VIDEO ABOUT CONTAINER START AREA*/
+
+.video-about-container {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    width: auto;
+    height: 315px;
+    transition: background 500ms;
+    margin-bottom: 15px;
+
+}
+
+#title-edit {
+
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    transition: font-size 500ms;
+
+}
+
+#title-edit:hover {
+    font-size: 50px;
+}
+
+#p-edit {
+    padding: 5px;
+    padding-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    transition: font-size 500ms, color 500ms;
+}
+
+/* VIDEO ABOUT CONTAINER FINISH AREA*/
+
+.backgroundtry {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 95%;
+
+    margin: auto;
+    height: 500px;
+    background-image: url(marble-background-backdrop-marble-background-wallpaper.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    background-position: top;
+}
+
+.logo-box {
+
+    padding-left: 450px;
+    margin: 0px;
+    height: 350px;
+}
+
+.logo-box img {
+    margin-top: 15px;
+    width: auto;
+    height: 350px;
+}
+
+.logo-story {
+    float: right;
+    display: block;
+    text-align: center;
+}
